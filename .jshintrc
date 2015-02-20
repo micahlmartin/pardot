@@ -1,0 +1,12 @@
+{
+  "unused": true,
+  "undef": true,
+  "strict": false,
+  "indent": 2,
+  "node": true,
+  "mocha": true,
+  "globals": {
+    "test": true,
+    "beforeEach": false
+  }
+}

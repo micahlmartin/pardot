@@ -4,7 +4,7 @@
   "description": "A pardot API client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/jshint/bin/jshint --reporter node_modules/jshint-stylish-ex/stylish.js **/*"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/micahlmartin/pardot/issues"
   },
-  "homepage": "https://github.com/micahlmartin/pardot"
+  "homepage": "https://github.com/micahlmartin/pardot",
+  "dependencies": {
+    "hoek": "^2.11.0",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "jshint-stylish-ex": "^0.2.0"
+  }
 }
