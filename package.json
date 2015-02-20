@@ -4,6 +4,7 @@
   "description": "A pardot API client",
   "main": "index.js",
   "scripts": {
+    "test": "./node_modules/lab/bin/lab",
     "lint": "./node_modules/jshint/bin/jshint --reporter node_modules/jshint-stylish-ex/stylish.js **/*"
   },
   "repository": {
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "jshint": "^2.6.0",
-    "jshint-stylish-ex": "^0.2.0"
+    "jshint-stylish-ex": "^0.2.0",
+    "lab": "^5.2.1"
   }
 }
