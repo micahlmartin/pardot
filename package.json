@@ -1,6 +1,6 @@
 {
   "name": "pardot",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A pardot API client",
   "main": "index.js",
   "scripts": {
