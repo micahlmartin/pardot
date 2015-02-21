@@ -4,7 +4,7 @@
   "description": "A pardot API client",
   "main": "index.js",
   "scripts": {
-    "test": "Q_DEBUG=1 ./node_modules/lab/bin/lab -m 0",
+    "test": "./node_modules/lab/bin/lab",
     "lint": "./node_modules/jshint/bin/jshint --reporter node_modules/jshint-stylish-ex/stylish.js **/*"
   },
   "repository": {
