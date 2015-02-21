@@ -1,1 +1,1 @@
-require('./lib/pardot');
+module.exports = require('./lib/pardot');
